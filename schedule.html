@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="schedule.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+
+</head>
+<style>
+
+body{margin: 0px;
+padding: 0px;
+/* background-image: url("bg.jpg"); */
+background-color: crimson;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;}
+nav .menu{display: flex;
+    margin-left: 400px;
+    margin-bottom: 0px;
+   
+}
+.menu button{
+    
+    border: 4px,crimson;
+    font-size: 20px;
+ font-weight: bold;
+ font-family: serif;
+    border-color :lightgoldenrodyellow;
+    color: lightgoldenrodyellow;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  background:none;
+    padding-left: 30px;
+padding-right: 30px;
+margin-left: 50px;
+
+margin-top: 30px;
+border-radius: 10px;}
+
+.menu button:hover{
+   cursor: pointer;
+border-radius: 20px;
+transition: 0.8s;
+    background-color: lightgoldenrodyellow;
+    color: crimson;
+}
+.menu button#schedule{background-color: lightgoldenrodyellow;
+color: crimson;}
+.menu button#schedule:hover{background:none;
+color: lightgoldenrodyellow;}
+main{
+border-style: solid;
+padding: 0px;
+border-color: crimson;
+box-sizing: border-box;
+border-width: 4px;
+  background-color: lightgoldenrodyellow;
+    height: auto;
+    width: auto;
+    margin: 100px;
+    margin-bottom: 0px;
+border-radius: 20px;}
+header{display: flex;
+justify-content: space-around;}
+
+.image img{width: 1130px;
+    margin-right: 10px;
+    
+padding: 10px;}
+
+h1{
+margin-top: 0px;
+margin-bottom: 0px;
+text-align: center;
+font-size: 9em; 
+color: crimson;
+font-family: cursive;
+font-weight: 900;
+font-family: 'Ephesis', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+.lastbutton{display: flex;
+/* margin-top: 50px; */
+justify-content: space-around;}
+.goto{text-align: center;
+font-size: 50px;
+color: lightgoldenrodyellow;
+font-family: cursive;
+margin-top: 80px;
+font-weight: 900;
+}
+
+button.back{ border: 4px,lightgoldenrodyellow;
+    font-size: 25px;
+ font-weight: bold;
+ font-family: serif;
+    border-color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  background:none;
+    padding-left: 40px;
+padding-right: 40px;
+margin-left: 50px;
+margin-bottom: 50px;
+margin-left: 50px;
+margin-top: 30px;
+border-radius: 10px;}
+
+button.back:hover{ cursor: pointer;
+border-radius: 20px;
+transition: 0.8s;
+    background-color:lightgoldenrodyellow;
+    color: crimson;}
+
+
+button.next{ border: 4px,lightgoldenrodyellow;
+    font-size: 25px;
+ font-weight: bold;
+ font-family: serif;
+    border-color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  background:none;
+    padding-left: 40px;
+padding-right: 40px;
+margin-left: 50px;
+margin-bottom: 50px;
+margin-left: 50px;
+margin-top: 30px;
+border-radius: 10px;}
+
+button.next:hover{ cursor: pointer;
+border-radius: 20px;
+transition: 0.8s;
+    background-color: lightgoldenrodyellow;
+    color: crimson;}
+
+.contant{text-align: center;
+color: crimson;}
+h3{font-size: 25px;
+font-weight: bold;
+/* font-style: italic;} */
+font-family: 'Love Ya Like A Sister', cursive;}
+p{font-size: 20px;
+font-weight: 700;
+color: rgb(107, 56, 56);
+font-family: 'Love Ya Like A Sister', cursive;}
+.venue{ text-align: center;
+    margin-bottom: 50px;
+  
+ border-style: solid; 
+ border-color: crimson; 
+border-radius: 20px;
+/* background-color: crimson;  */
+background-color: crimson;
+/* color: ; */
+ margin-left: 170px;
+margin-right: 170px; 
+padding: 10px;
+font-size: 25px;
+font-family: sans-serif;
+font-weight: bold;
+margin-top: 70px;
+color: white;}
+
+@media only screen and (max-width: 600px) {
+    
+  nav .menu{display: flex;
+      margin-left: 110px;
+      margin-bottom: 0px;
+    
+  }
+  .menu button{
+      
+      border: 2px,crimson;
+      font-size: 17px;
+   font-weight: bold;
+   font-family: serif;
+      border-color :lightgoldenrodyellow;
+      color: lightgoldenrodyellow;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    background:none;
+      padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 25px;
+  
+  
+  margin-top: 30px;
+  border-radius: 10px;}
+
+main{ 
+  background-color: lightgoldenrodyellow;
+    height: auto;
+    width: 100vw;
+    margin: 50px;
+border-radius: 20px;
+margin-bottom: 100px;
+}
+
+.image{width: 90vw;
+height: auto;}
+
+.image img{width: 92vw;
+height: auto;
+padding: 2px;
+margin-bottom: 0px;
+margin: 3px;
+
+
+text-align: center;}
+
+h1{
+margin-top: none;
+margin-bottom: 0px;
+text-align: center;
+font-size: 6em; 
+color: crimson;
+font-family: cursive;
+font-weight: 900;
+font-family: 'Ephesis', cursive;
+}
+
+lastbutton{display: flex;
+/* margin-top: 50px; */
+justify-content: space-around;}
+.goto{text-align: center;
+font-size: 30px;
+font-style: italic;
+color: lightgoldenrodyellow;
+font-family: Sans-Serif;
+font-weight: 900; 
+margin-left: 80px;
+}
+
+
+button.back{ border: 4px,lightgoldenrodyellow;
+    font-size: 17px;
+ font-weight: bold;
+ font-family: serif;
+    border-color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  background:none;
+    padding-left: 15px;
+padding-right: 15px;
+/* margin-left: 40px; */
+margin-bottom: 50px;
+margin-left: 100px;
+margin-top: 20px;
+border-radius: 10px;}
+   
+button.next{ border: 4px, lightgoldenrodyellow;
+    font-size: 17px;
+ font-weight: bold;
+ font-family: serif;
+    border-color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  background:none;
+    padding-left: 15px;
+padding-right: 15px;
+margin-left: 50px;
+margin-bottom: 50px;
+margin-left: 50px;
+margin-top: 20px;
+border-radius: 10px;}
+
+
+.contant{text-align: center;
+color: crimson;}
+h3{font-size: 18px;
+font-weight: bold;
+/* font-style: italic;} */
+font-family: 'Love Ya Like A Sister', cursive;}
+p{font-size: 15px;
+font-weight: 700;
+margin: 20px;
+color: rgb(107, 56, 56);
+font-family: 'Love Ya Like A Sister', cursive;}
+
+.venue{ text-align: center;
+    margin-bottom: 50px;
+  width: 84vw;
+ border-style: solid; 
+ border-color: crimson; 
+border-radius: 20px;
+/* background-color: crimson;  */
+background-color: crimson;
+/* color: ; */
+ margin : 20px;
+padding: 10px;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: bold;
+color: white;}
+
+
+
+
+}
+</style>
+<body>
+    <header><nav>
+        <div class="menu">
+        <a href="file:///C:/Users/ajays/Documents/card.html"><button>START</button></a>
+        <a href="file:///C:/Users/ajays/Documents/home.html"> <button>HOME</button></a>
+        <button id="schedule">SCHEDULE</button> 
+        <a href="file:///C:/Users/ajays/Documents/RITUAL.html"><button>RITUAL</button></a>
+       </div>
+    </nav></header>
+    
+ <main>
+    <!-- <h1>Wedding</h1> -->
+    <div class="image"><img id="image" src="image/10.png" 
+    </div>
+    <h1>Wedding</h1>
+    
+<div class="contant">
+<div class="haldirasm">
+<h3>HALDI CEREMONY</h3>
+<P>3 DECEMBER 2021 (FRIDAY) ........................................ TIMING: 10:00 AM</P></div>
+<div class="tilak">
+<h3>TILAK</h3>
+<p>6 DECEMBER 2021 (MONDAY) ........................................ TIMING: 07:00 PM  </p>
+</div> 
+
+<div class="mehandi">
+    <h3>MEHANDI</h3>
+    <p>8 DECEMBER 2021 (WEDNESDAY) ........................................ TIMING: 02:00 PM</p>
+</div>
+<div class="matkor">
+    <h3>MATKOR</h3>
+    <p>9 DECEMBER 2021 (THURSDAY) ........................................ TIMING : 05:00 PM</p>
+</div>
+
+<div class="grithdhaari">
+<h3>GHRITDHARI</h3>
+
+<p>9 DECEMBER 2021 (THURSDAY) ........................................ TIMING: 07:00 PM</p>
+</div>
+
+<div class="dinner">
+    <h3>DINNER</h3>
+<P>9 DECEMBER 2021 (THURSDAY) ........................................ TIMING: 08:00 PM
+</P></div>
+<div class="vidaai">
+    <h3>VIDAAI</h3>
+    <P>..............................IN THE SHADOW OF THE STARS..............................</P>
+</div>
+</div>
+
+<div class="venue">  VENUE - MATRO PILLAR  NO. 893-894 CISF UNIT PARK BHARAT VIHAR KAKROLA <br> NEARBY MATRO STATION DWARKA SECTOR-14 </div>
+<div class="image"><img src="image/10.png"></div>
+
+</main>   
+
+<div class="goto">GO TO</div>
+<div class="lastbutton">
+    <a href="file:///C:/Users/ajays/Documents/home.html"> 
+<button class="back">BACK</button></a>
+<a href="file:///C:/Users/ajays/Documents/RITUAL.html">
+<button class="next">NEXT</button></a>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ritual.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+        
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+</head>
+<style>
+
+body{margin: 0px;
+padding: 0px;
+/* background-image: url("bg.jpg"); */
+background-color: crimson;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;}
+nav .menu{display: flex;
+    margin-left: 400px;
+    margin-bottom: 0px;
+   
+}
+.menu button{
+    
+    border: 4px,crimson;
+    font-size: 20px;
+ font-weight: bold;
+ font-family: serif;
+    border-color :lightgoldenrodyellow;
+    color: lightgoldenrodyellow;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  background:none;
+    padding-left: 30px;
+padding-right: 30px;
+margin-left: 50px;
+
+margin-top: 30px;
+border-radius: 10px;}
+
+.menu button:hover{
+   cursor: pointer;
+border-radius: 20px;
+transition: 0.8s;
+    background-color: lightgoldenrodyellow;
+    color: crimson;
+}
+.menu button#ritual{background-color: lightgoldenrodyellow;
+color: crimson;}
+.menu button#ritual:hover{background:none;
+color: lightgoldenrodyellow;}
+main{
+border-style: solid;
+padding: 0px;
+border-color: crimson;
+box-sizing: border-box;
+border-width: 4px;
+  background-color: lightgoldenrodyellow;
+    height: auto;
+    width: auto;
+    margin: 100px;
+    margin-bottom: 0px;
+border-radius: 20px;}
+header{display: flex;
+justify-content: space-around;}
+
+h1{
+margin-top: 0px;
+margin-bottom: 0px;
+text-align: center;
+font-size: 9em; 
+color: crimson;
+font-family: cursive;
+font-weight: 900;
+font-family: 'Ephesis', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+.slider{width: 900px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+height: 500px;
+margin-left: 110px ;
+margin-right: 100px;
+/* margin-top: 60px; */
+background-image: url("image/haldi.jpg");
+text-align: center;
+background-repeat: no-repeat;
+background-size: cover;
+animation-name: slider;
+animation-duration: 35s;
+animation-iteration-count: infinite;}
+@keyframes slider{
+16%{background-image: url("image/tilak.jpg");}
+32%{background-image: url("image/mahandi.jpg");}
+48%{background-image: url("image/matkor.jpg");}
+64%{background-image: url("image/gritdhari.jpg");}
+80%{background-image: url("image/dinner.jpg");}
+94%{background-image: url("image/last.jpg");}
+}
+.para1{width: 900px;
+    border-style: inset;
+    border-color: rgb(206, 7, 47);
+box-sizing: border-box;
+border-width: 5px;
+border-radius: 20px;
+color: grey;
+    height: 90px;
+    padding: 5px;
+ margin-left: 110px;
+ font-family: sans-serif;
+    background-color:lightgoldenrodyellow;}
+    .para2{width: 900px;
+    border-style: inset;
+    border-color: rgb(206, 7, 47);
+box-sizing: border-box;
+border-width: 5px;
+margin-bottom: 50px;
+border-radius: 20px;
+color: grey;
+margin-top: 50px;
+    height: 150px;
+ margin-left: 110px;
+ align-items: center;
+ padding: 5px;
+ font-family: sans-serif;
+    background-color:lightgoldenrodyellow;}
+
+    .lastbutton{display: flex;
+/* margin-top: 50px; */
+justify-content: space-around;}
+.goto{text-align: center;
+font-size: 50px;
+color: lightgoldenrodyellow;
+font-family: cursive;
+font-style: italic;
+margin-top: 80px;
+font-weight: 900;
+}
+
+button.back{ border: 4px,lightgoldenrodyellow;
+    font-size: 25px;
+ font-weight: bold;
+ font-family: serif;
+    border-color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  background:none;
+    padding-left: 40px;
+padding-right: 40px;
+margin-left: 50px;
+margin-bottom: 50px;
+margin-left: 50px;
+margin-top: 30px;
+border-radius: 10px;}
+
+button.back:hover{ cursor: pointer;
+border-radius: 20px;
+transition: 0.8s;
+    background-color:lightgoldenrodyellow;
+    color: crimson;}
+
+    
+@media only screen and (max-width: 600px) {
+nav .menu{display: flex;
+    margin-left: 110px;
+    margin-bottom:50px;
+text-align: center;}
+
+.menu button{
+    
+    border: 2px,crimson;
+    font-size: 17px;
+ font-weight: bold;
+ font-family: serif;
+    border-color :lightgoldenrodyellow;
+    color: lightgoldenrodyellow;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  background:none;
+    padding-left: 10px;
+padding-right: 10px;
+margin-left: 25px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+    
+
+h1{
+margin-top: none;
+margin-bottom: 0px;
+text-align: center;
+font-size: 6em; 
+color: crimson;
+font-family: cursive;
+font-weight: 900;
+font-family: 'Ephesis', cursive;
+}
+
+
+
+main{ display: block;
+justify-content: space-between;  
+  background-color: lightgoldenrodyellow;
+    height: auto;
+    width: 100vw;
+    margin: 50px;
+    margin-top: 0px;
+margin-bottom: 100px;
+border-radius: 20px;}
+
+
+
+
+
+.slider{width: 90vw;
+    margin-bottom: 50px;
+    border-style: inset;
+    border-color: lightgoldenrodyellow;
+    border-width: 2px;
+    border-radius: 20px;
+height: 300px;
+margin: 10px;
+background-image: url("image/haldi.jpg");
+text-align: center;
+background-repeat: no-repeat;
+background-size: cover;
+animation-name: slider;
+animation-duration: 20s;
+animation-iteration-count: infinite;}
+@keyframes slider{
+    16%{background-image: url("image/tilak.jpg");}
+32%{background-image: url("image/mahandi.jpg");}
+48%{background-image: url("image/matkor.jpg");}
+64%{background-image: url("image/gritdhari.jpg");}
+80%{background-image: url("image/dinner.jpg");}
+94%{background-image: url("image/last.jpg");}
+} 
+
+
+.para1{width: 90vw;
+    border-style: inset;
+    border-color: rgb(206, 7, 47);
+box-sizing: border-box;
+border-width: 2.5px;
+border-radius: 20px;
+color: grey;
+    height: auto;
+    padding: 5px;
+ margin: 12px;
+ font-family: sans-serif;
+    background-color:lightgoldenrodyellow;}
+  
+.para2{width: 90vw;
+    border-style: inset;
+    border-color: rgb(206, 7, 47);
+box-sizing: border-box;
+border-width: 3px;
+border-radius: 20px;
+color: grey;
+margin-top: 20px;
+    height: auto;
+ margin: 12px;
+ align-items: center;
+ padding: 5px;
+ font-family: sans-serif;
+    background-color:lightgoldenrodyellow;}
+
+    .lastbutton{display: flex;
+/* margin-top: 50px; */
+justify-content: space-around;}
+.goto{text-align: center;
+font-size: 30px;
+color: lightgoldenrodyellow;
+font-family: Sans-Serif;
+
+font-weight: 900; 
+margin-left: 80px;
+}
+
+button.back{ border: 4px,lightgoldenrodyellow;
+    font-size: 17px;
+ font-weight: bold;
+ font-family: serif;
+    border-color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  background:none;
+    padding-left: 15px;
+padding-right: 15px;
+/* margin-left: 40px; */
+margin-bottom: 50px;
+margin-left: 80px;
+margin-top: 20px;
+border-radius: 10px;}
+
+}
+    
+    
+
+
+</style>
+<body>
+    <header><nav>
+        <div class="menu">
+      <a href="index.html"> <button>START</button></a>
+      <a href="home.html"><button>HOME</button></a>
+      <a href="schedule.html"> <button>SCHEDULE</button></a>
+       <button id="ritual">RITUAL</button>
+       </div>
+    </nav></header>
+    <main>
+        <h1>Rituals</h1>
+        <div class="slider"></div>
+        <div class="para1">
+    <p> Hindu marriage is called Vivah and the wedding ceremony is called Vivaha samskar. In Hinduism a marriage is considered a samskara (sacrament) because in Vedic tradition it is an important turning point in the life of a householder and in the destiny of the souls that depend upon the marriage for their return to the earth. </p>
+</div>
+
+<div class="para2">
+    <p>A lot of importance is attached to marriages in Hinduism since it is considered an integral part of man's obligatory duty upon earth to get married, procreate children, ensure the continuation of the family lineage, serve the ancestors and God in ensuring the order and regularity of the worlds. Hindu marriage ceremonies are colorful, and the celebration may extend for days depending upon the social and economic status of the bride and the bridegroom. In some respects, they also present a huge, social and economic problem to Hindu families, since they have to spend a lot of money to organize the event and keep the guests and relations happy with proper arrangements.</p>
+    </div>
+    </main>
+    <div class="goto">GO TO</div>
+<div class="lastbutton">
+    <a href="schedule.html">
+<button class="back">BACK</button></a>
+
+</body>
+</html> 
